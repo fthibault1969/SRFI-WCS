@@ -1,4 +1,3 @@
-(import (srfi srfi-64))
 ;;;should always pass, use this file
 ;;;to make sure compiler/interpreter and flags are set up correctly
 ;;;like:
