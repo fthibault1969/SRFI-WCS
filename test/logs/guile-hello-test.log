@@ -3,7 +3,7 @@ Group begin: guile-hello-test
 Test begin:
   test-name: "guile-2.2.4"
   source-file: "test/hello-common.scm"
-  source-line: 13
+  source-line: 12
   source-form: (test-equal scheme-version-name 1 1)
 Test end:
   result-kind: pass
@@ -11,7 +11,7 @@ Test end:
   expected-value: 1
 Test begin:
   source-file: "test/hello-common.scm"
-  source-line: 14
+  source-line: 13
   source-form: (test-assert (not (equal? "hello" "world")))
 Test end:
   result-kind: pass

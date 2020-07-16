@@ -29,7 +29,7 @@ check: $(LOGS)
 	@echo "tests complete"
 
 clean:
-	rm -f $(LOGS)
+	rm -f *.log
 
 $(NAMES): $(TESTS)
 	@$(SCM) $(SCMFLAGS) $@.scm |& $(HANDLE_RES)

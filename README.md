@@ -18,6 +18,8 @@ implementation of pattern matching
 
 **srfi-template.html** the filled-out SRFI
 
+## .gauche0.9.6
+**match.scm** Gauche pattern matching library definition
 
 ## ./guile2.2:
 
@@ -32,15 +34,16 @@ implementation of pattern matching
 
 ## ./test:
 
-**guile-match-test.scm** match-test-sld tests re-written to use srfi-64 and srfi-9
+**match-test.scm** cond-expand implentation-specific code, then load tests-common.scm.
 
-**guile-hello-test.scm** passes if guile is set up correctly in Makefile
+**hello-test.scm** cond-expand implementation-specific code, then load hello-common.scm.
 
-**hello-common.scm** check compilers/interpreters
+**hello-common.scm** simple test, will pass if Makefile and cond-expand are set up correctly.
 
 **tests-common.scm** match tests
 
 **Makefile** make check runs all tests
 
-**\*.log** test results
+## ./test/logs
 
+**\*.logs** test results
